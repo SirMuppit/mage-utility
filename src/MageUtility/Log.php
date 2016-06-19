@@ -15,6 +15,8 @@
 
 namespace MageUtility;
 
+define('DS', DIRECTORY_SEPARATOR);
+
 use Symfony\Component\Console\Output\StreamOutput;
 
 class Log

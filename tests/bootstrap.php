@@ -13,14 +13,6 @@
  * @license     https://opensource.org/licenses/MIT  MIT License (MIT)
  */
 
-namespace MageUtility;
+error_reporting(E_ALL);
 
-class MageUtility
-{
-    /**
-     * Version
-     *
-     * @var string
-     */
-    const VERSION = '1.0.0';
-}
+require __DIR__.'/../src/bootstrap.php';

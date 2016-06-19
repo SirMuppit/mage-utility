@@ -2,18 +2,28 @@
     "name": "slghatlen/mage-utility",
     "description": "Magento 2 utility command line script.",
     "require": {
-        "symfony/console": "3.1",
-        "psr/log": "1.0",
+        "php": "~5.5.22 || ~5.6.0 || >=7.0.2 <=7.0.4 || 7.0.6",
+        "symfony/console": "^3.1",
+        "psr/log": "^1.0",
         "symfony/event-dispatcher": "^3.1",
         "symfony/process": "^3.1"
     },
-    "license": "The MIT License (MIT)",
+    "require-dev": {
+        "phpunit/phpunit": "4.1.0"
+    },
+    "license": "MIT",
     "authors": [
         {
             "name": "Shaughn Le Grange - Hatlen",
-            "email": "me@shaughn.pro"
+            "email": "me@shaughn.pro",
+            "homepage": "http://shaughn.pro",
+            "role": "Developer"
         }
     ],
+    "support": {
+        "email": "me@shaughn.pro",
+        "issues": "https://github.com/SirMuppit/mage-utility/issues"
+    },
     "autoload": {
         "psr-4": {
             "MageUtility\\": "src/MageUtility/"
