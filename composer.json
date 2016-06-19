@@ -1,0 +1,20 @@
+{
+    "name": "slghatlen/mage-utility",
+    "description": "Magento 2 utility command line script.",
+    "require": {
+        "symfony/console": "3.1",
+        "psr/log": "1.0"
+    },
+    "license": "The MIT License (MIT)",
+    "authors": [
+        {
+            "name": "Shaughn Le Grange - Hatlen",
+            "email": "me@shaughn.pro"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MageUtility\\": "src/MageUtility/"
+        }
+    }
+}
