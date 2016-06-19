@@ -1,0 +1,8 @@
+# IDE
+.idea
+
+# Composer
+/vendor/
+
+# Logs
+/var/log/
